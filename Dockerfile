@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM public.ecr.aws/docker/library/python:3.12.5-bullseye
+FROM public.ecr.aws/docker/library/python:python:3.12.5-bookworm
 
 # Set the working directory in the container
 WORKDIR /app
@@ -7,7 +7,7 @@ WORKDIR /app
 # Install system dependencies if needed, 
 # not supported by Nexus unfortunately
 RUN apt-get update -y
-RUN apt upgrade -y
+
 
 # Install Python dependencies
 COPY requirements.txt .
