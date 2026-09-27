@@ -2,8 +2,8 @@
 Module containing examples of common vulnerabilities in web applications.
 
 This FastAPI app demonstrates insecure coding practices such as SQL injection,
-directory traversal, improper exception handling, insecure file uploads, and 
-weak authentication mechanisms. The purpose is to highlight vulnerabilities 
+directory traversal, improper exception handling, insecure file uploads, and
+weak authentication mechanisms. The purpose is to highlight vulnerabilities
 for educational purposes.
 """
 
